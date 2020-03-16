@@ -24,44 +24,40 @@
 </script>
 
 <style lang="scss" scoped>
-    #top {
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            padding: 80px 10px;
-            align-items: center;
-        }
-        .info {
-            padding: 15px;
-            height: 60vh;
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 
-            h1 {
-            font-size: 5.5rem;
-            text-transform: capitalize;
-            font-weight: 700;
-            color: #16171b;
-            margin-bottom: 2rem;
-            word-break: keep-all;
-            }
-
-            .punctuation {
-            font-family: "karla", sans-serif;
-
-            /* font-size: 4rem; */
-            }
-
-            p {
-            /* position: relative; */
-            color: #919191;
-            margin-bottom: 2rem;
-            z-index: 1;
-            cursor: pointer;
-            }
-
-            #about:hover {
-            color: #87cdff;
-            }
-        }
+#top {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 10px;
+    align-items: center;
+  }
+  .info {
+    padding: 15px;
+    height: 60vh;
+    h1 {
+      font-size: 5.5rem;
+      text-transform: capitalize;
+      font-weight: 700;
+      color: #16171b;
+      margin-bottom: 2rem;
+      word-break: keep-all;
+      line-height: 1;
+    }
+    .punctuation {
+      font-family: "karla", sans-serif;
+    }
+    p {
+      color: #919191;
+      margin-bottom: 2rem;
+      z-index: 1;
+      cursor: pointer;
+    }
+    #about:hover {
+      color: #87cdff;
+    }
+  }
 }
 
 #about {
